@@ -170,7 +170,7 @@ void SysTick_Handler(void)	//To receive data every second
 	{
 		TIM2->CCR3 = 100;	//close
 	}
-	else if(dis1 > 100 && (TIM2->CCR3 == 100) && dis2 > 430)
+	else if(dis1 > 100 && (TIM2->CCR3 == 75) && dis2 > 430)
 	{
 		TIM2->CCR3 = 100;	//close
 	}
